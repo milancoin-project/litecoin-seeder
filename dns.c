@@ -21,11 +21,11 @@
 # define DSTADDR_DATASIZE (CMSG_SPACE(sizeof(struct in_addr)))
 # define dstaddr(x) (CMSG_DATA(x))
 #elif defined IP_PKTINFO
-struct in_pktinfo {
-  unsigned int   ipi_ifindex;  /* Interface index */
-  struct in_addr ipi_spec_dst; /* Local address */
-  struct in_addr ipi_addr;     /* Header Destination address */
-};
+//struct in_pktinfo {
+//  unsigned int   ipi_ifindex;  /* Interface index */
+//  struct in_addr ipi_spec_dst; /* Local address */
+//  struct in_addr ipi_addr;     /* Header Destination address */
+//};
 
 # define DSTADDR_SOCKOPT IP_PKTINFO
 # define DSTADDR_DATASIZE (CMSG_SPACE(sizeof(struct in_pktinfo)))

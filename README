@@ -1,7 +1,7 @@
-litecoin-seeder
+Milancoin-seeder
 ===============
 
-Litecoin-seeder is a crawler for the Litecoin network, which exposes a list
+Milancoin-seeder is a crawler for the Milancoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
